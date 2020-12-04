@@ -3,7 +3,7 @@ The project was a coding challenge build as a part of a recruitment process. The
 
 <b>Running the code</b>
 
-First, you need to ensure you have jest installed. 
+First, you need to ensure you have jest installed. We can do so with npm or yarn. To do with npm, run the following 
 
 >[$ npm install jest --save-dev]
 
