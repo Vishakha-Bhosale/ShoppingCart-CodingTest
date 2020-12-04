@@ -1,0 +1,26 @@
+{
+  "name": "shoppingcart-codingtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/cart.js",
+    "test": "jest",
+    "test:watchAll": "npm run test -- --watchAll"
+  },
+  "author": "Vishakha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishakha-Bhosale/ShoppingCart-CodingTest/issues"
+  },
+  "homepage": "https://github.com/Vishakha-Bhosale/ShoppingCart-CodingTest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
