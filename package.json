@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/cart.js",
+    "start": "nodemon --exec babel-node src/Index.js",
     "test": "jest",
     "test:watchAll": "npm run test -- --watchAll"
   },

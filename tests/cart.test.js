@@ -1,4 +1,5 @@
-import Cart from '../src/Cart'
+import Cart from '../src/Components/Cart'
+
 //Test Case 1: Add products to the shopping cart.
 describe('When user adds 5 Shower gels in the shopping cart', () => {
   it('Cart should contain 5 gels each with unit price of 49.99', () => {
