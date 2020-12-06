@@ -38,5 +38,5 @@ Once you have done this, go to the terminal and navigate to the folder where the
 
 Successful execution of all test cases should reveal the below snapshot, 
 
-![ScreenShot](/img/Capture.png)
+![ScreenShot](/imgs/success.png)
 
