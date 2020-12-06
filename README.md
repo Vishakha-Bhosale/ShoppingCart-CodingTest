@@ -13,7 +13,7 @@ The Components folders includes the scripts and functions written to run the cod
  -Incase of following error, "Err: cb() never called", delete the package-lock.json file and node-modules folder, and reinstall npm using,
 > npm install
 
- -Incase of babel version mismatch (reuired = 7.x), follow the following commands
+ - Incase of babel version mismatch (reuired = 7.x), follow the following commands
 > npm uninstall babel-cli -g
 > npm uninstall babel-core -g
  -Reinstall babel using these commands,
@@ -24,7 +24,7 @@ The Components folders includes the scripts and functions written to run the cod
 
 > npm install @babel/core
 
--Next, you need to ensure you have jest installed. We can do so with npm or yarn. To do with npm, run the following 
+- Next, you need to ensure you have jest installed. We can do so with npm or yarn. To do with npm, run the following 
 
 > npm install --save-dev jest
 
