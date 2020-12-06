@@ -8,34 +8,36 @@ The Components folders includes the scripts and functions written to run the cod
 - Language: Javascript/nodejs
 
 <b>Installation</b>
-- You need to download and install NodeJS, which can be found <a href="https://nodejs.org/en/download/">here</a> You can find the step by step guid on how to install NodeJS <a href = "https://phoenixnap.com/kb/install-node-js-npm-on-windows">here</a>
+1. You need to download and install NodeJS, which can be found <a href="https://nodejs.org/en/download/">here</a> You can find the step by step guid on how to install NodeJS <a href = "https://phoenixnap.com/kb/install-node-js-npm-on-windows">here</a>
 
- -Incase of following error, "Err: cb() never called", delete the package-lock.json file and node-modules folder, and reinstall npm using,
-> npm install
+ - Incase of following error, "Err: cb() never called", delete the package-lock.json file and node-modules folder, and reinstall npm using,
+ > npm install
 
  - Incase of babel version mismatch (reuired = 7.x), follow the following commands
-> npm uninstall babel-cli -g
-> npm uninstall babel-core -g
- -Reinstall babel using these commands,
+ > npm uninstall babel-cli -g
 
-> npm install @babel/node
+ > npm uninstall babel-core -g
 
-> npm install @babel/cli
+  - Reinstall babel using these commands,
 
-> npm install @babel/core
+  > npm install @babel/node
 
-- Next, you need to ensure you have jest installed. We can do so with npm or yarn. To do with npm, run the following 
+  > npm install @babel/cli
+
+  > npm install @babel/core
+
+2. Next, you need to ensure you have jest installed. We can do so with npm or yarn. To do with npm, run the following 
 
 > npm install --save-dev jest
 
-- Once you have done this, go to the terminal and navigate to the folder where the project is located and run:
+3. Once you have done this, go to the terminal and navigate to the folder where the project is located and run:
 
 > npm start
 - On a different terminal, run the following command
   
 > npm run test
 
-- Successful execution of all test cases should reveal the below snapshot, 
+4. Successful execution of all test cases should reveal the below snapshot, 
 
 ![ScreenShot](/imgs/success.png)
 
