@@ -1,4 +1,4 @@
-# ShoppingCart-CodingTest
+# ShoppingCart - CodingTest
 This repository contains the code written as a part of a coding test for an organisation. The code provisions the users to add their products to a cart, calculate the total amount and the sales tax associated with it. 
 
 The actual implementation of the individual functions alongwith utility scripts can be found at "src/Component". "Tests" folder includes the test suite to test the code functionality. 
