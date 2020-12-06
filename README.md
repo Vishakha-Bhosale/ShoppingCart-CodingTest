@@ -4,8 +4,8 @@ This repository contains the code written as a part of a coding test for an orga
 The Components folders includes the scripts and functions written to run the code, whereas the Tests folder includes the test suite to test the code functionality. 
 
 <b>Requirements</b>
-OS: Windows 10 (tested)
-Language: Javascript/nodejs
+- OS: Windows 10 (tested)
+- Language: Javascript/nodejs
 
 <b>Installation</b>
 First, you need to download and install NodeJS, which can be found <a href="https://nodejs.org/en/download/">here</a> You can find the step by step guid on how to install NodeJS <a href = "https://phoenixnap.com/kb/install-node-js-npm-on-windows">here</a>
